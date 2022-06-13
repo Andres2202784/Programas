@@ -1,15 +1,18 @@
-var n;
-var x;
 
-n=prompt("Dijite numero")
 
-var x = [n]
-x*= 2;
+var p = 2;
 
-for (i=2; i<=n; i++){
-    
-    if (i%2==0) {
-        document.write(x=[i])
-        document.write(" ")
-    }  
+var x=Array[n]
+
+var n=prompt("Dijite numero")
+
+
+
+for (i=0; i<=n-1; i++){
+   p=p+2 
+   x[i]=p 
+   
 }
+
+document.write(i)
+document.write(" ")
